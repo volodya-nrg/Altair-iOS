@@ -25,7 +25,7 @@ final class LoginViewController: BaseViewController {
     private let inputPass: UITextField = {
         let x = TextFieldFactory.create()
         x.isSecureTextEntry = true
-        x.text = "1563151q"
+        x.text = "test"
         return x
     }()
     private let btnForgot = ButtonFactory.create(.system, DictionaryWord.forgotPassword.rawValue)
